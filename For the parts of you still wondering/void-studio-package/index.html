@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A cinematic collection of stories about wonder, ideas, and the wild."
+    />
+    <title>The Void — Notes for a curious life</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <span></span>
+      <p>The Void</p>
+    </div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-aura" aria-hidden="true"></div>
+    <div class="progress" aria-hidden="true"><i></i></div>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="spotlight" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#home" aria-label="Astra home"
+        ><span>✦</span> The Void</a
+      >
+      <button
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+      <nav aria-label="Primary navigation">
+        <a href="#home">Home</a><a href="#blogs">Blogs</a
+        ><a href="#categories">Categories</a><a href="#poetry">Poetry</a
+        ><a href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-orb orb-one"></div>
+        <div class="hero-orb orb-two"></div>
+        <div class="starfield" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Independent journal · est. 2024</p>
+          <h1>For the parts of you<br />still <em>wondering.</em></h1>
+          <p class="lede">
+            Essays, observations, and borrowed light from the edge of science,
+            nature, and the human condition.
+          </p>
+          <a class="button magnetic" href="#blogs"
+            >Explore the journal <b>→</b></a
+          >
+        </div>
+        <div class="hero-card tilt-card reveal js-read" data-delay="180" data-story="quiet-geometry" role="button" tabindex="0" aria-label="Read: The quiet geometry of becoming">
+          <img
+            src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1000&q=82"
+            alt="Purple galaxy in space"
+          />
+          <div>
+            <span class="tag">Featured story</span>
+            <p>The quiet geometry of becoming</p>
+            <small>8 min read · June 18, 2026</small>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#featured"
+          ><span></span> Scroll to wander</a
+        >
+      </section>
+
+      <section class="section featured" id="featured">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Selected for you</p>
+            <h2>Ideas with <em>gravity.</em></h2>
+          </div>
+          <a class="text-link" id="viewAllEssays" href="javascript:void(0)">View all essays →</a>
+        </div>
+        <div class="feature-grid">
+          <article class="story-card tilt-card reveal js-read" data-story="map-runs-out" role="button" tabindex="0" aria-label="Read: Where the map runs out">
+            <div class="image-wrap">
+              <img
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1100&q=82"
+                alt="Mountain landscape"
+              /><span class="tag">Adventure</span>
+            </div>
+            <div class="story-body">
+              <div class="meta">
+                <span>June 12, 2026</span><span>6 min read</span>
+              </div>
+              <h3>Where the map runs out</h3>
+              <p>
+                On the tenderness of getting lost, and why the unplanned trail
+                is often the one we remember.
+              </p>
+              <a href="javascript:void(0)" class="read-more">Read story <b>↗</b></a>
+            </div>
+          </article>
+          <article class="story-card tilt-card reveal js-read" data-delay="100" data-story="humane-machine" role="button" tabindex="0" aria-label="Read: The humane machine">
+            <div class="image-wrap">
+              <img
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1100&q=82"
+                alt="Laptop and code"
+              /><span class="tag cyan">Technology</span>
+            </div>
+            <div class="story-body">
+              <div class="meta">
+                <span>June 04, 2026</span><span>9 min read</span>
+              </div>
+              <h3>The humane machine</h3>
+              <p>
+                A field guide to keeping your attention—and your sense of
+                self—in an intelligent age.
+              </p>
+              <a href="javascript:void(0)" class="read-more">Read story <b>↗</b></a>
+            </div>
+          </article>
+          <article class="story-card tilt-card reveal js-read" data-delay="200" data-story="blue-permission-slip" role="button" tabindex="0" aria-label="Read: A small blue permission slip">
+            <div class="image-wrap">
+              <img
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1100&q=82"
+                alt="Earth seen from space"
+              /><span class="tag violet">Space</span>
+            </div>
+            <div class="story-body">
+              <div class="meta">
+                <span>May 29, 2026</span><span>5 min read</span>
+              </div>
+              <h3>A small blue permission slip</h3>
+              <p>
+                What the view from orbit can teach us about the scale of our
+                ordinary worries.
+              </p>
+              <a href="javascript:void(0)" class="read-more">Read story <b>↗</b></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section categories" id="categories">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Find your way in</p>
+            <h2>Follow a <em>thread.</em></h2>
+          </div>
+        </div>
+        <div class="category-grid">
+          <a href="#blogs" class="category-card reveal"
+            ><i>◌</i><span>Philosophy</span><small>18 stories</small></a
+          ><a href="#blogs" class="category-card reveal" data-delay="60"
+            ><i>⌁</i><span>Nature</span><small>24 stories</small></a
+          ><a href="#blogs" class="category-card reveal" data-delay="120"
+            ><i>⌘</i><span>Technology</span><small>16 stories</small></a
+          ><a href="#blogs" class="category-card reveal" data-delay="180"
+            ><i>△</i><span>Survival</span><small>12 stories</small></a
+          ><a href="#blogs" class="category-card reveal" data-delay="240"
+            ><i>✦</i><span>Space</span><small>21 stories</small></a
+          ><a href="#poetry" class="category-card reveal" data-delay="300"
+            ><i>〰</i><span>Poetry</span><small>35 pieces</small></a
+          ><a href="#blogs" class="category-card reveal" data-delay="360"
+            ><i>◒</i><span>Psychology</span><small>19 stories</small></a
+          ><a href="#blogs" class="category-card reveal" data-delay="420"
+            ><i>↟</i><span>Adventure</span><small>14 stories</small></a
+          >
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <div class="aurora"></div>
+        <div class="quote-inner reveal">
+          <span class="quote-mark">“</span>
+          <blockquote
+            data-quote="The world taught us to fear being left behind. It never warned us that we might leave ourselves behind first."
+          ></blockquote>
+          <p>— Notes from the stillness</p>
+        </div>
+      </section>
+
+      <section class="section latest" id="blogs">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">The latest</p>
+            <h2>Fresh from the <em>notebook.</em></h2>
+          </div>
+          <span class="issue">ISSUE 06 / 2026</span>
+        </div>
+        <div class="masonry">
+          <article class="mini-card reveal js-read" data-story="almost-wild" role="button" tabindex="0" aria-label="Read: In praise of the almost-wild">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=82"
+              alt="Lake and mountains"
+            />
+            <div>
+              <span class="tag">Nature</span>
+              <h3>In praise of the almost-wild</h3>
+              <p>By Mira Sol · May 24</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="90" data-story="how-dark-is-dark" role="button" tabindex="0" aria-label="Read: How dark is the dark?">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1519608487953-e999c86e7453?auto=format&fit=crop&w=900&q=82"
+              alt="Night sky"
+            />
+            <div>
+              <span class="tag violet">Space</span>
+              <h3>How dark is the dark?</h3>
+              <p>By Elias Ward · May 19</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="150" data-story="room-inside-mind" role="button" tabindex="0" aria-label="Read: The room inside the mind">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=82"
+              alt="Forest with light"
+            />
+            <div>
+              <span class="tag">Psychology</span>
+              <h3>The room inside the mind</h3>
+              <p>By Alma Kent · May 16</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="210" data-story="patient-light" role="button" tabindex="0" aria-label="Read: We are made of a patient light">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=900&q=82"
+              alt="Stars"
+            />
+            <div>
+              <span class="tag cyan">Science</span>
+              <h3>We are made of a patient light</h3>
+              <p>By Mira Sol · May 09</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="270" data-story="pack-lightly" role="button" tabindex="0" aria-label="Read: Pack lightly for the unknown">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=82"
+              alt="Hiker overlooking valley"
+            />
+            <div>
+              <span class="tag">Adventure</span>
+              <h3>Pack lightly for the unknown</h3>
+              <p>By Elias Ward · May 02</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-story="art-of-arriving-late" role="button" tabindex="0" aria-label="Read: The art of arriving late">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1499244571948-7ccddb3583f1?auto=format&fit=crop&w=900&q=82"
+              alt="Empty road at dusk"
+            />
+            <div>
+              <span class="tag">Philosophy</span>
+              <h3>The art of arriving late</h3>
+              <p>By Noor Iqbal · Apr 27</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="90" data-story="small-gods-of-habit" role="button" tabindex="0" aria-label="Read: Small gods of habit">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?auto=format&fit=crop&w=900&q=82"
+              alt="Morning coffee routine"
+            />
+            <div>
+              <span class="tag">Psychology</span>
+              <h3>Small gods of habit</h3>
+              <p>By Theo Marsh · Apr 20</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="150" data-story="forecast-for-wonder" role="button" tabindex="0" aria-label="Read: The forecast for wonder">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1500336624523-d727130c3328?auto=format&fit=crop&w=900&q=82"
+              alt="Storm clouds over field"
+            />
+            <div>
+              <span class="tag">Nature</span>
+              <h3>The forecast for wonder</h3>
+              <p>By Mira Sol · Apr 14</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="210" data-story="static-and-signal" role="button" tabindex="0" aria-label="Read: Static and signal">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&w=900&q=82"
+              alt="Old radio close up"
+            />
+            <div>
+              <span class="tag cyan">Technology</span>
+              <h3>Static and signal</h3>
+              <p>By Theo Marsh · Apr 08</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="270" data-story="weather-of-memory" role="button" tabindex="0" aria-label="Read: The weather of memory">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&w=900&q=82"
+              alt="Fog rolling over hills"
+            />
+            <div>
+              <span class="tag violet">Wonder</span>
+              <h3>The weather of memory</h3>
+              <p>By Alma Kent · Apr 02</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-story="field-guide-restlessness" role="button" tabindex="0" aria-label="Read: A field guide to restlessness">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=82"
+              alt="Winding trail through mountains"
+            />
+            <div>
+              <span class="tag">Adventure</span>
+              <h3>A field guide to restlessness</h3>
+              <p>By Elias Ward · Mar 27</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="90" data-story="mathematics-of-goodbye" role="button" tabindex="0" aria-label="Read: The mathematics of goodbye">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1494783367193-149034c05e8f?auto=format&fit=crop&w=900&q=82"
+              alt="Empty train platform"
+            />
+            <div>
+              <span class="tag">Philosophy</span>
+              <h3>The mathematics of goodbye</h3>
+              <p>By Noor Iqbal · Mar 20</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="150" data-story="under-a-borrowed-sky" role="button" tabindex="0" aria-label="Read: Under a borrowed sky">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?auto=format&fit=crop&w=900&q=82"
+              alt="Milky way over mountains"
+            />
+            <div>
+              <span class="tag violet">Space</span>
+              <h3>Under a borrowed sky</h3>
+              <p>By Alma Kent · Mar 14</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="210" data-story="unfinished-museum" role="button" tabindex="0" aria-label="Read: The unfinished museum">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=900&q=82"
+              alt="Empty gallery hallway"
+            />
+            <div>
+              <span class="tag violet">Wonder</span>
+              <h3>The unfinished museum</h3>
+              <p>By Theo Marsh · Mar 08</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-delay="270" data-story="small-mercies" role="button" tabindex="0" aria-label="Read: Small mercies">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1476611317561-60117649dd94?auto=format&fit=crop&w=900&q=82"
+              alt="Small campfire at dusk"
+            />
+            <div>
+              <span class="tag">Survival</span>
+              <h3>Small mercies</h3>
+              <p>By Elias Ward · Mar 02</p>
+            </div>
+          </article>
+          <article class="mini-card reveal js-read" data-story="quiet-experiment" role="button" tabindex="0" aria-label="Read: The quiet experiment">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=82"
+              alt="Microscope in a lab"
+            />
+            <div>
+              <span class="tag cyan">Science</span>
+              <h3>The quiet experiment</h3>
+              <p>By Mira Sol · Feb 24</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section poetry" id="poetry">
+        <div class="poetry-panel reveal">
+          <div>
+            <p class="eyebrow">A pause between pages</p>
+            <h2>Poetry for the<br /><em>in-between.</em></h2>
+            <a href="javascript:void(0)" id="enterArchive" class="button magnetic"
+              >Enter the archive <b>→</b></a
+            >
+          </div>
+          <p class="poem">
+            "There is a door in every<br />hour. There is a sky beneath<br />every
+            skin. Be still enough<br />to find them."
+          </p>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1519608487953-e999c86e7453?auto=format&fit=crop&w=1200&q=82"
+              alt="Starry night"
+            />
+            <div class="image-note">Writing toward<br />the luminous.</div>
+          </div>
+          <div class="about-copy reveal" data-delay="120">
+            <p class="eyebrow">Our little observatory</p>
+            <h2>Stories that make room for <em>more.</em></h2>
+            <p>
+              Astra is an independent journal for the beautifully unfinished. We
+              gather perspective from distant places and quiet rooms, making
+              space for curiosity to do its best work.
+            </p>
+            <div class="stats">
+              <div>
+                <strong data-count="48">0</strong><span>Essays published</span>
+              </div>
+              <div>
+                <strong data-count="12">0</strong
+                ><span>Countries explored</span>
+              </div>
+              <div>
+                <strong data-count="36">0</strong><span>Contributors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">A note from you</p>
+            <h2>Stay close to the <em>signal.</em></h2>
+            <p>One thoughtful letter each month. No noise, no agenda.</p>
+          </div>
+          <form>
+            <label
+              ><span>Name</span
+              ><input required type="text" placeholder="Your name" /></label
+            ><label
+              ><span>Email</span
+              ><input
+                required
+                type="email"
+                placeholder="you@example.com" /></label
+            ><label class="wide"
+              ><span>Message</span
+              ><textarea
+                rows="3"
+                placeholder="What is on your mind?"
+              ></textarea></label
+            ><button class="button magnetic" type="submit">
+              Send a note <b>→</b>
+            </button>
+            <p class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="#home"><span>✦</span> The Void</a>
+          <p>Notes for a curious life.<br />Made slowly, read deeply.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="#blogs">Journal</a><a href="#categories">Categories</a
+          ><a href="#poetry">Poetry</a>
+        </div>
+        <div>
+          <h4>Elsewhere</h4>
+          <a href="https://instagram.com/ab.void-01" target="_blank" rel="noopener">Instagram</a
+          ><a href="#contact">Are.na</a
+          ><a href="#contact">Substack</a>
+        </div>
+        <div>
+          <h4>Small transmissions</h4>
+          <p>A monthly dose of wonder.</p>
+          <form class="newsletter">
+            <input
+              type="email"
+              placeholder="Your email"
+              aria-label="Email address"
+            /><button aria-label="Subscribe">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 The Void Journal</span><span>Made under a generous sky</span>
+      </div>
+    </footer>
+    <button class="to-top" aria-label="Back to top">↑ <small>0%</small></button>
+
+    <div class="reader-modal" id="readerModal" aria-hidden="true">
+      <div class="reader-inner" role="dialog" aria-modal="true">
+        <button class="modal-close" id="readerClose" aria-label="Close story">✕</button>
+        <div class="reader-content" id="readerContent"></div>
+      </div>
+    </div>
+
+    <div class="gallery-modal" id="essaysModal" aria-hidden="true">
+      <div class="gallery-inner" role="dialog" aria-modal="true">
+        <button class="modal-close" id="essaysClose" aria-label="Close">✕</button>
+        <p class="eyebrow">The full journal</p>
+        <h2>All essays<em>.</em></h2>
+        <div class="gallery-grid" id="essaysGrid"></div>
+      </div>
+    </div>
+
+    <div class="gallery-modal" id="poetryModal" aria-hidden="true">
+      <div class="gallery-inner" role="dialog" aria-modal="true">
+        <button class="modal-close" id="poetryClose" aria-label="Close">✕</button>
+        <p class="eyebrow">The archive</p>
+        <h2>Poetry for the <em>in-between.</em></h2>
+        <p class="archive-note">
+          Wrote something that belongs here? Send it to us on Instagram
+          <a href="https://instagram.com/ab.void-01" target="_blank" rel="noopener">@ab.void-01</a>
+          — DM us your poem directly, and if it fits, we'll publish it in this
+          archive.
+        </p>
+        <div class="poem-list" id="poemList"></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
